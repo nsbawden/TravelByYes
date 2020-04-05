@@ -1,0 +1,257 @@
+.wsite-page-index #wsite-content .wcustomhtml {
+ overflow-y: visible !important;
+}
+/*
+.wsite-page-index #main-wrap {
+ background-image: url("/homeship/background.png");
+ background-size: 100% 100%;
+}
+*/
+.wsite-page-index #main-wrap .container {
+ background: transparent !important;
+}
+
+/* -webkit-animation: spin 1s infinite linear; */
+
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@-ms-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+@-moz-keyframes spincc {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0deg); }
+}
+@-webkit-keyframes spincc {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0deg); }
+}
+@-ms-keyframes spincc {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0deg); }
+}
+@keyframes spincc {
+    from {transform:rotate(360deg);}
+    to {transform:rotate(0deg);}
+}
+
+.spinc {
+    -webkit-animation-name: spin;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    
+    animation-name: spin;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.spincc {
+    -webkit-animation-name: spincc;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spincc;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spincc;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    
+    animation-name: spincc;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#Counter {
+	position: absolute;
+	display: inline-block;
+	top: 157px;
+	left: 265px;
+	padding: 0 20px;
+	background-color: transparent;
+	color: #FFF;
+	z-index: 1;
+	text-align: center;
+	font-size: 1.1em;
+	line-height: 1.5;
+	font-family: 'Comic Sans MS', 'Quattrocento Sans', sans-serif !important;
+}
+
+#Motto {
+	position: absolute;
+	top: 303px;
+	left: 176px;
+	font-family: 'Indie Flower', 'comic sans ms';
+	font-size: 1.5em;
+	color: rgb(255, 204, 0);
+	font-weight: bold;
+	background: rgba(112, 74, 56, 0.75);
+	padding: 10px 17px;
+	border-radius: 14px;
+}
+
+
+#GearClicks {
+	position: absolute;
+	top: 413px;
+	left: 139px;
+	right: 232px;
+	height: 589px;
+	cursor: pointer;
+}
+
+#HomeShip {
+ position: relative;
+ top: -31px;
+ height: 1202px;
+}
+#HomeShip img {
+ position: absolute;
+}
+#Propeller {
+ top: 272px;
+ left: 32px;
+    -webkit-animation-duration: 4000ms;
+    -moz-animation-duration: 4000ms;
+    -ms-animation-duration: 4000ms;
+    animation-duration: 4000ms;
+}
+#Ship {
+}
+#BigGear {
+ top: 552px;
+ left: 277px;
+	cursor: pointer;
+}
+#BackRopes {
+ top: 506px;
+ left: 228px;
+}
+#FatRopes {
+ top: 423px;
+ left: 218px;
+}
+#GearLeftHigh {
+ top: 422px;
+ left: 137px;
+	cursor: pointer;
+}
+#GearRightHigh {
+ top: 583px;
+ left: 563px;
+	cursor: pointer;
+}
+#GearLeftLow {
+ top: 589px;
+ left: 149px;
+	cursor: pointer;
+}
+#GearRightLow {
+ top: 712px;
+ left: 501px;
+	cursor: pointer;
+}
+#Elephant {
+ top: 933px;
+ left: 304px;
+}
+#BasketLogo {
+ top: 1063px;
+ left: 361px;
+}
+#FrontRopes {
+ top: 658px;
+ left: 226px;
+}
+#FreeBalloons {
+	display: none;
+ top: 537px;
+ left: 7px;
+}
+#TBY {
+ top: 34px;
+ left: 152px;
+}
+#Pennant {
+ top: 149px;
+ left: 225px;
+}
+#CloudBackTop {
+ top: 200px;
+ left: 100px;
+}
+#CloudBackMiddle {
+ top: 400px;
+ left: 100px;
+}
+#CloudBackBottom {
+ top: 800px;
+ left: 100px;
+}
+#CloudFrontTop {
+ top: 200px;
+ left: 100px;
+}
+#CloudFrontMiddle {
+ top: 400px;
+ left: 100px;
+}
+#CloudFrontBottom {
+ top: 953px;
+ left: 100px;
+}
+
+#MissionStatement {
+	font-size: 32px;
+	font-family: times new roman;
+	font-style: italic;
+}
+
+#NewsLetter {
+	position: absolute;
+	top: 84px;
+	left: 50%;
+	margin-left: 361px;
+	background: rgba(11, 105, 15, 0.6);
+	border-radius: 14px;
+}
+#Basket {
+	position: absolute;
+	top: 956px;
+	left: 328px;
+	width: 158px;
+	height: 224px;
+	cursor: pointer;
+}
+#FBFeed {
+	margin-top: 0px;
+}
+
+#GoToIndieGoGo {
+	position: absolute;
+	top: 79px;
+	left: 20px;
+}
+#GoToIndieGoGo img {
+	width: 300px;
+	cursor: pointer;	
+}
+
+
+
