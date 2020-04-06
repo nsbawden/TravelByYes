@@ -1,3 +1,7 @@
+body {
+	background-color: #685371;
+}
+
 .iframe-wheel {
 	border: none;
 	margin: 0;
@@ -7,6 +11,7 @@
 
 h2 {
 	text-align: center;
+	color: white;
 }
 
 #FwOuter {
